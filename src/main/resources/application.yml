@@ -1,0 +1,9 @@
+app:
+  url: "https://some-app.com"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5678/test
+    username: postgres
+    password: postgres
+  sql.init.mode: always
